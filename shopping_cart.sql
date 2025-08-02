@@ -1,6 +1,6 @@
 CREATE TABLE `shopping_cart` (
   `cart_id` int NOT NULL COMMENT 'Unique identifier for each shopping cart',
-  `user_id` int DEFAULT NULL COMMENT 'Optional link to a registered user',
+  `customer_id` int DEFAULT NULL COMMENT 'Optional link to a registered user',
   `session_token` varchar(100) DEFAULT NULL COMMENT 'Identifier for guest or anonymous sessions',
   `status` varchar(20) DEFAULT 'active' COMMENT 'Cart state: active, checked_out, or abandoned',
   `created_at` timestamp NULL DEFAULT CURRENT_TIMESTAMP COMMENT 'Timestamp when cart was created',
