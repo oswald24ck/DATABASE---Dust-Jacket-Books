@@ -1,0 +1,1 @@
+booksbookscustomershopping_cartSELECT * FROM books.shopping_cart;shopping_cartcustomerPRIMARYbooksPRIMARY
